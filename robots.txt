@@ -1,42 +1,127 @@
-# Indique aux robots que toutes les pages peuvent être explorées, sauf restrictions spécifiées
+# Optimierte robots.txt für 2025 - Übertrifft Exzellenz
+# Entwickelt für DACH-Region, KI, Google KI, Sprachassistenten und erweitertes SEO
+# Website: https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/
+# Letztes Update: 09/03/2025 14:00 GMT
+# Hinweis: Mit Google Search Console und robotstxt.org testen zur Validierung
+
+##########################
+# Allgemeine Erlaubnis   #
+##########################
 User-agent: *
-Disallow: /admin/
-Disallow: /tmp/
+Disallow: /private/          # Private Verzeichnisse (z.B. Admin, Skripte)
+Disallow: /temp/             # Temporäre Ordner
+Disallow: /*?*               # Vermeidet Duplicate Content (URL-Parameter)
+Allow: /*.css$               # CSS für optimales Rendering (vererbt an alle)
+Allow: /*.js$                # Essentielle JS (vererbt an alle)
+Allow: /*.pdf$               # Erlaubt strategische PDFs (z.B. Leitfäden)
+Allow: /                     # Standarderlaubnis
+
+########################################
+# Googlebot (inklusive Google KI 2025) #
+########################################
+User-agent: Googlebot
+Disallow: /private/
+Disallow: /temp/
+Allow: /rituale/
+Allow: /schutz/
+Allow: /entzauberung/
+Allow: /energiereinigung/
+
+###########################################
+# Sprachassistenten                       #
+###########################################
+User-agent: Googlebot-Voice
+Disallow: /private/
+Disallow: /temp/
+Allow: /faq/
+Allow: /einfache-rituale/
+Allow: /tipps/
+User-agent: Amazonbot        # Hypothese für Alexa
+Disallow: /private/
+Disallow: /temp/
+Allow: /faq/
+Allow: /tipps/
+User-agent: Applebot         # Hypothese für Siri
+Disallow: /private/
+Disallow: /temp/
+Allow: /faq/
+Allow: /tipps/
+
+###########################################
+# Bing (DACH-Region außerhalb von Google) #
+###########################################
+User-agent: Bingbot
+Disallow: /private/
+Disallow: /temp/
+Allow: /rituale/
+Allow: /schutz/
+
+#################################
+# Blockierung unerwünschter Bots #
+#################################
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+User-agent: YandexBot
+Disallow: /
+
+##################################################
+# Google Partner und Analyse-Tools               #
+##################################################
+User-agent: Mediapartners-Google
+Disallow: /private/
+User-agent: AdsBot-Google
 Disallow: /private/
 
-# Bloquer des URL avec paramètres inutiles pour l'indexation
-Disallow: /*?debug=true
-Disallow: /*?preview=true
+##################################################
+# Aufkommende KI-Crawler (Antizipation 2025)     #
+##################################################
+User-agent: xAI-Crawler
+Disallow: /private/
+User-agent: OpenAI-Crawler
+Disallow: /private/
+User-agent: AnthropicBot
+Disallow: /private/
+User-agent: Qwantify         # DACH-Relevanz
+Disallow: /private/
 
-# Permettre les fichiers nécessaires au bon affichage et fonctionnement
-Allow: /css/
-Allow: /js/
-Allow: /images/
+##################################################
+# Erweiterte Optimierung (Mobile-First)         #
+##################################################
+User-agent: Googlebot-Mobile
+Disallow: /private/
+Disallow: /temp/
+Allow: /rituale/
+Allow: /schutz/
+Allow: /entzauberung/
+Allow: /energiereinigung/
 
-# Référencement des ressources multimédias
-Allow: *.png
-Allow: *.jpg
-Allow: *.webp
-Allow: *.css
-Allow: *.js
+##################
+# Sitemap und Crawling #
+##################
+Sitemap: https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/sitemap.xml
+Crawl-delay: 0.5
 
-# Fournir le chemin du fichier sitemap pour une meilleure indexation
-Sitemap: https://www.clairvoyancemedium.com/sitemap.xml
+##################################################
+# DACH-spezifische Optimierungen                #
+##################################################
+User-agent: Googlebot-Image
+Allow: /bilder/rituale/
+Allow: /bilder/schutzsymbole/
+Disallow: /bilder/temp/
 
-# Autorisation pour les robots Google et Bing pour maximiser les campagnes publicitaires
-User-agent: Googlebot
-Allow: /
-User-agent: AdsBot-Google
-Allow: /
-User-agent: Bingbot
-Allow: /
+User-agent: Applebot-Image
+Allow: /bilder/rituale/
+Disallow: /bilder/temp/
 
-# Bloquer les robots nuisibles ou non désirés
-User-agent: BadBot
-Disallow: /
-User-agent: EvilScraper
-Disallow: /
+# Spezielle Erlaubnis für deutsche Suchmaschinen
+User-agent: Seekport
+Disallow: /private/
+Allow: /rituale/
+Allow: /schutz/
 
-# Empêcher l'exploration des fichiers sensibles
-Disallow: /config/
-Disallow: /backup/
+User-agent: Nutch
+Disallow: /private/
