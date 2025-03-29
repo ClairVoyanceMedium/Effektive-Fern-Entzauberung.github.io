@@ -1,171 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-  <!-- Homepage - Priorité maximale avec contenu riche -->
+  <!-- Hauptseite (Page principale) -->
   <url>
     <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/</loc>
-    <lastmod>2025-03-09</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2025-03-29</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="de" href="https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="de-de" href="https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/de/"/>
-    <xhtml:link rel="alternate" hreflang="de-at" href="https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/at/"/>
-    <xhtml:link rel="alternate" hreflang="de-ch" href="https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/ch/"/>
     <image:image>
-      <image:loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/images/aura-reinigung.jpg</image:loc>
-      <image:title>Professionelle Fernentzauberung und Energiereinigung</image:title>
-      <image:caption>Reinigung der Aura für mehr Vitalität</image:caption>
+      <image:loc>https://i.imgur.com/GmyGlKk.webp</image:loc>
+      <image:title>Logo des Rituals für effektive Fern-Entzauberung und Schutz</image:title>
+      <image:caption>Bild, das den erstklassigen Dienst der effektiven Entzauberung aus der Ferne repräsentiert</image:caption>
     </image:image>
-    <video:video>
-      <video:content_loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/videos/intro.mp4</video:content_loc>
-      <video:title>Introduction à la Fernentzauberung</video:title>
-      <video:description>Découvrez nos rituels de purification énergétique</video:description>
-      <video:thumbnail_loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/images/video-thumb.jpg</video:thumbnail_loc>
-      <video:duration>120</video:duration>
-    </video:video>
+    <image:image>
+      <image:loc>https://i.imgur.com/KBYqPcf.webp</image:loc>
+      <image:title>Göttliches Ritual der Fern-Entzauberung</image:title>
+      <image:caption>Darstellung des mächtigen Rituals von Frederick zur spirituellen Befreiung</image:caption>
+    </image:image>
   </url>
 
-  <!-- Core Services - Hiérarchie claire et multimédia -->
+  <!-- Abschnitt: Bedeutung der Entzauberung (Importance du désenvoûtement) -->
   <url>
-    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/rituale/</loc>
-    <lastmod>2025-03-09</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/#bedeutung-entzauberung</loc>
+    <lastmod>2025-03-29</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/images/rituale.jpg</image:loc>
-      <image:title>Rituels spirituels puissants</image:title>
-    </image:image>
   </url>
 
+  <!-- Abschnitt: Warum ein Ritual durchführen (Pourquoi invoquer un rituel) -->
   <url>
-    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/schutz/</loc>
-    <lastmod>2025-03-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/images/schutzsymbole.jpg</image:loc>
-      <image:title>Symbole de protection énergétique</image:title>
-    </image:image>
+    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/#warum-ein-ritual</loc>
+    <lastmod>2025-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 
+  <!-- Abschnitt: Vorteile (Bénéfices) -->
   <url>
-    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/entzauberung/</loc>
-    <lastmod>2025-03-07</lastmod>
+    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/#vorteile</loc>
+    <lastmod>2025-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Abschnitt: Erkennung von Flüchen (Détection de sortilège) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/#erkennung-von-fluchen</loc>
+    <lastmod>2025-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Abschnitt: Frederick -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/#frederick</loc>
+    <lastmod>2025-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Abschnitt: Hellsehen per E-Mail (Voyance par email) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/#hellsehen-per-email</loc>
+    <lastmod>2025-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Abschnitt: Erfahrungsberichte (Avis/Témoignages) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/#erfahrungsberichte</loc>
+    <lastmod>2025-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/images/entzauberung.jpg</image:loc>
-      <image:title>Entzauberung à distance</image:title>
-    </image:image>
   </url>
 
-  <!-- Specialized Services - Priorités ajustées -->
+  <!-- Abschnitt: Verfahren (Procédure) -->
   <url>
-    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/energiereinigung/</loc>
-    <lastmod>2025-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-    <image:image>
-      <image:loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/images/energie.jpg</image:loc>
-      <image:title>Purification énergétique avancée</image:title>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/beziehungs-entzauberung/</loc>
-    <lastmod>2025-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/berufs-entzauberung/</loc>
-    <lastmod>2025-03-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Information Pages - Engagement utilisateur -->
-  <url>
-    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/ueber-uns/</loc>
-    <lastmod>2025-03-03</lastmod>
+    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/#verfahren</loc>
+    <lastmod>2025-03-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
-  </url>
-
-  <url>
-    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/erfolgsgeschichten/</loc>
-    <lastmod>2025-03-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-    <image:image>
-      <image:loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/images/erfolg.jpg</image:loc>
-      <image:title>Témoignages de réussite</image:title>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/faq/</loc>
-    <lastmod>2025-03-01</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/images/faq.jpg</image:loc>
-      <image:title>Questions fréquentes sur l’entzauberung</image:title>
-    </image:image>
   </url>
 
-  <!-- Blog Articles - Contenu frais -->
+  <!-- Statische Ressourcen (Ressources statiques) -->
   <url>
-    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/blog/zeichen-der-verzauberung/</loc>
-    <lastmod>2025-02-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/images/verzauberung.jpg</image:loc>
-      <image:title>Signes d’une malédiction</image:title>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/blog/energetische-hygiene/</loc>
-    <lastmod>2025-02-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/images/hygiene.jpg</image:loc>
-      <image:title>Hygiène énergétique au quotidien</image:title>
-    </image:image>
-  </url>
-
-  <!-- Legal Pages - Conformité -->
-  <url>
-    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/impressum/</loc>
-    <lastmod>2025-01-01</lastmod>
+    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/favicon_optimized.png</loc>
+    <lastmod>2025-03-29</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-
-  <url>
-    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/datenschutz/</loc>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-
-  <!-- Contact - Engagement renforcé -->
-  <url>
-    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/kontakt/</loc>
-    <lastmod>2025-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.3</priority>
     <image:image>
-      <image:loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/images/kontakt.jpg</image:loc>
-      <image:title>Contactez-nous pour une consultation</image:title>
+      <image:loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/favicon_optimized.png</image:loc>
+      <image:title>Favicon von ClairvoyanceMedium</image:title>
+      <image:caption>Offizielles Symbol der führenden Website für effektive Fern-Entzauberung</image:caption>
     </image:image>
+  </url>
+
+  <url>
+    <loc>https://clairvoyancemedium.github.io/Effektive-Fern-Entzauberung.github.io/manifest.json</loc>
+    <lastmod>2025-03-29</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Zusätzliche Ressourcen (Ressources additionnelles - polices critiques) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/Consultation_de_voyance_par_email_pas_chere.github.io/Cinzel-Regular.woff2</loc>
+    <lastmod>2025-03-29</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <url>
+    <loc>https://clairvoyancemedium.github.io/Consultation_de_voyance_par_email_pas_chere.github.io/PlayfairDisplay-Regular.woff2</loc>
+    <lastmod>2025-03-29</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
   </url>
 
 </urlset>
